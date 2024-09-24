@@ -23,18 +23,14 @@ Participants can explore techniques like:
 
 ### Dataset
 Participants will have access to:
-- Multimodal sensor data collected from off-road environments such as rocky paths, forest trails, and sandy dunes.
+- Multimodal sensor data collected from off-road environments.
 - Synchronized data streams from all sensors to enable efficient fusion and localization.
+
+### Submission: 
+Participants will submit estimated odometry along with a brief report describing their approach and how they handled off-road challenges and sensor fusion.
+
 
 ### Evaluation Metrics
 The submissions will be evaluated based on:
 - **Root Mean Square Error (RMSE)**: Measures the accuracy of the estimated trajectory relative to the ground truth.
 - **Absolute Trajectory Error (ATE)**: Assesses the global consistency of the estimated trajectory.
-- **Robustness**: Includes failure rate, where participants' algorithms will be tested on segments with GPS dropouts or sensor noise.
-- **Efficiency**: Computational efficiency, including processing time and CPU/GPU utilization.
-
----
-
-Participants are encouraged to explore unconventional approaches and leverage recent advancements in machine learning and sensor fusion techniques. Awards will be given based on performance in accuracy, robustness, and innovation.
-
-Good luck, and we look forward to seeing your submissions!

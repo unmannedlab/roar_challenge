@@ -9,9 +9,9 @@ title: Novel View Synthesis
 Novel View Synthesis (NVS) is a crucial task in 3D scene reconstruction, especially in unstructured off-road environments where a complete understanding of the scene is necessary for autonomous navigation. In this challenge, participants are tasked with reconstructing a series of off-road scenes from partial image sequences, filling in missing frames and synthesizing accurate novel views.
 
 ### Task Details
-Participants must generate missing frames for off-road environments, accurately reconstructing the scene from incomplete data. The dataset contains scenes captured during dynamic and static driving sequences with varying levels of difficulty based on the frame drop rate:
-- **Level 1 (50% Frame Drop Rate)**: For each dynamic scene (approx. 50 meters of driving distance), participants will be provided with only 50% of the image frames, while the remaining 50% will be reserved for evaluation.
-- **Level 2 (90% Frame Drop Rate)**: For static scenes (approx. 50 meters), only 10% of the frames will be provided, making it more challenging to reconstruct the complete scene.
+Participants must generate missing frames for off-road environments, accurately reconstructing the scene from incomplete data. The dataset contains scenes captured during driving sequences with varying levels of difficulty based on the frame drop rate:
+- **Level 1 (50% Frame Drop Rate)**: For each scene (approx. 50 meters of driving distance), participants will be provided with only 50% of the image frames, while the remaining 50% will be reserved for evaluation.
+- **Level 2 (90% Frame Drop Rate)**: For each scenes (approx. 50 meters), only 10% of the frames will be provided, making it more challenging to reconstruct the complete scene.
 
 Participants can use techniques like:
 - **Neural Radiance Fields (NeRF)**: To synthesize novel views by learning the 3D geometry and appearance of the off-road scenes.
@@ -20,9 +20,10 @@ Participants can use techniques like:
 
 ### Dataset
 The dataset includes:
-- **Dynamic Scenes**: Off-road driving footage where the vehicle traverses diverse environments.
-- **Static Scenes**: Captured in off-road areas where no dynamic movement is involved.
 - **RGB Images & LiDAR Point Clouds**: The data provides both image sequences and point clouds to assist in reconstructing the scenes.
+
+### Submission: 
+Participants will submit their synthesized frames for both levels, along with a brief report detailing their approach, including any innovative techniques used to handle the high frame drop rates.
 
 ### Evaluation Metrics
 Participants’ submissions will be evaluated based on:
@@ -30,8 +31,3 @@ Participants’ submissions will be evaluated based on:
 - **Structural Similarity Index (SSIM)**: Assesses the structural fidelity and perceived quality of the synthesized images.
 - **Learned Perceptual Image Patch Similarity (LPIPS)**: Evaluates how close the synthesized images are to human visual perception.
 
----
-
-Participants are encouraged to explore unconventional approaches and leverage recent advancements in machine learning and sensor fusion techniques. Awards will be given based on performance in accuracy, robustness, and innovation.
-
-Good luck, and we look forward to seeing your submissions!

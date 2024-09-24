@@ -15,12 +15,3 @@ We will host three challenges:
 
 Explore each challenge and submit your solutions to advance off-road robotics!
 
-## Submission Guidelines
-
-To participate in the challenges, please follow these instructions:
-
-1. Submit your code and results to the GitHub repository provided for each challenge.
-2. Include a brief report explaining your approach.
-3. Submissions must be received by the deadlines.
-
-For more details, visit the challenge page.

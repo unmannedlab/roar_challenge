@@ -20,14 +20,10 @@ Participants will receive a dataset containing:
 - LiDAR point clouds for depth and structure understanding.
 - Thermal images to capture heat variations across terrains and objects.
 
+
+### Submission: 
+Participants will submit their labeled images along with a brief report explaining their approach and any unique strategies they employed.
+
 ### Evaluation Criteria
 Submissions will be evaluated on:
 - **Accuracy**: How closely the segmented regions match the hidden ground-truth labels.
-- **Generalization**: The ability of the model to perform well on diverse terrains that were not part of the development set.
-- **Innovation**: The novelty and creativity of the approach used by participants, particularly how they overcome the lack of annotated training data.
-  
----
-
-Participants are encouraged to explore unconventional approaches and leverage recent advancements in machine learning and sensor fusion techniques. Awards will be given based on performance in accuracy, robustness, and innovation.
-
-Good luck, and we look forward to seeing your submissions!
